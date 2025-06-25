@@ -16,6 +16,10 @@ int main(){
     for(int i = 0; i<5; i++){
         cout << arr[i]<<" ";
     }
+    int x = 20;
+    int y = 10;
+    swap(x,y);
+    cout << x<<" "<<y;
     return 0;
 
 }
